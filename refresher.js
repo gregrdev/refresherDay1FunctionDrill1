@@ -1,7 +1,8 @@
 function createGreeting(){
 
-console.log('Hi my name is Slim Shady.');
+return('Hi my name is Slim Shady.');
 
 }
 
-createGreeting();
+const greeting1 = createGreeting();
+console.log(greeting1);
